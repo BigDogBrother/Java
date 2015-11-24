@@ -3,7 +3,7 @@ package com.hmkcode;
 
 import java.util.HashMap;
 import java.util.Map;
-
+//Test sort
 public class Test {
 public static void main(String[] args){
   	
@@ -19,6 +19,7 @@ public static void main(String[] args){
   	map.put("B", "2");
   	map.put("F", "6");
   	map.put("E", "5");
+  	map.put("»»","7");
   			
   	System.out.println("Unsorted Map: "+map);
   	System.out.println("Sorted Map By Values: "+MapSort.sortByValue(map));
